@@ -1,0 +1,273 @@
+{
+  "id": "213234bd-1dc1-4162-b4bb-c9554b333672",
+  "version": "2.0",
+  "name": "ijj_test",
+  "url": "https://www.google.com/",
+  "tests": [{
+    "id": "a9d01677-d803-438b-9203-b8113cfc5525",
+    "name": "contato_ijj",
+    "commands": [{
+      "id": "362f3219-313a-4094-abec-2b69078c97a2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1dfd4d5-8d02-46c5-b3fb-73214cd14cb4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x798",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ac2b656-e3ca-4f34-8a90-7cdc17954b00",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d30b064-ca92-4994-8ead-2677a82dd4e9",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "instituto joga junto"
+    }, {
+      "id": "7549e819-2e54-43ea-a015-f9e967c28ee6",
+      "comment": "",
+      "command": "click",
+      "target": "css=center:nth-child(1) > .gNO89b",
+      "targets": [
+        ["css=center:nth-child(1) > .gNO89b", "css:finder"],
+        ["xpath=(//input[@name='btnK'])[2]", "xpath:attributes"],
+        ["xpath=//div[4]/center/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0168c37b-277d-4264-a07f-d49081030446",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.qrShPb > span",
+      "targets": [
+        ["css=.qrShPb > span", "css:finder"],
+        ["xpath=//div[@id='_YPikZrnkL8PN1sQPjvWrwAs_27']/div/div[2]/div/div/div/h2/span", "xpath:idRelative"],
+        ["xpath=//h2/span", "xpath:position"],
+        ["xpath=//span[contains(.,'JogaJunto Instituto')]", "xpath:innerText"]
+      ],
+      "value": "500000"
+    }, {
+      "id": "e503469e-9a2c-44ef-95a2-48d4c9b6d6b2",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//h3[contains(.,'Instituto Joga Junto')]",
+      "targets": [
+        ["css=.tF2Cxc > .yuRUbf .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/span/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Instituto Joga Junto')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2f65706-2380-4564-abcd-d0034f1021bd",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.navbar img",
+      "targets": [
+        ["css=.navbar img", "css:finder"],
+        ["xpath=//img[@alt='Logo do instituto Joga Junto referênciando ao site']", "xpath:img"],
+        ["xpath=//div[@id='root']/nav/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": "500000"
+    }, {
+      "id": "f9e481cc-4dd6-43ba-a682-03b797329364",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contato",
+      "targets": [
+        ["linkText=Contato", "linkText"],
+        ["css=.navmenu li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Contato')]", "xpath:link"],
+        ["xpath=//div[@id='root']/nav/ul/li/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/#Contato')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contato')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac4c4275-b28a-4362-a873-d7e645863d08",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//section[@id='Contato']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "775e4477-0b20-4542-9278-b07451716a4e",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//section[@id='Contato']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Annielle Crispim"
+    }, {
+      "id": "b775dbb5-3453-45bb-9f90-c37f2b68d4c1",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//section[@id='Contato']/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f94dd4a-71c8-4786-be6b-68e996f8fe00",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//section[@id='Contato']/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "anniellemedeiros@gmail.com"
+    }, {
+      "id": "a0601854-eaf4-438b-9474-260b1f8f9f33",
+      "comment": "",
+      "command": "click",
+      "target": "id=assunto",
+      "targets": [
+        ["id=assunto", "id"],
+        ["name=assunto", "name"],
+        ["css=#assunto", "css:finder"],
+        ["xpath=//select[@id='assunto']", "xpath:attributes"],
+        ["xpath=//section[@id='Contato']/div/form/div[3]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bb122f9-806d-4a0a-bcde-49382fc40749",
+      "comment": "",
+      "command": "select",
+      "target": "id=assunto",
+      "targets": [],
+      "value": "label=Ser facilitador"
+    }, {
+      "id": "3c498d97-6491-4c61-b9ca-c851bf67bd4f",
+      "comment": "",
+      "command": "click",
+      "target": "id=mensagem",
+      "targets": [
+        ["id=mensagem", "id"],
+        ["name=body", "name"],
+        ["css=#mensagem", "css:finder"],
+        ["xpath=//textarea[@id='mensagem']", "xpath:attributes"],
+        ["xpath=//section[@id='Contato']/div/form/div[4]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6219d84c-84f2-400a-9606-a2eff84dcb55",
+      "comment": "",
+      "command": "click",
+      "target": "css=.contactform",
+      "targets": [
+        ["css=.contactform", "css:finder"],
+        ["xpath=//section[@id='Contato']/div", "xpath:idRelative"],
+        ["xpath=//section[8]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87748982-8c2f-490d-aec5-294494ed65ac",
+      "comment": "",
+      "command": "click",
+      "target": "id=mensagem",
+      "targets": [
+        ["id=mensagem", "id"],
+        ["name=body", "name"],
+        ["css=#mensagem", "css:finder"],
+        ["xpath=//textarea[@id='mensagem']", "xpath:attributes"],
+        ["xpath=//section[@id='Contato']/div/form/div[4]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "333061e5-f883-46cf-b4f8-dc97983f0d7b",
+      "comment": "",
+      "command": "type",
+      "target": "id=mensagem",
+      "targets": [
+        ["id=mensagem", "id"],
+        ["name=body", "name"],
+        ["css=#mensagem", "css:finder"],
+        ["xpath=//textarea[@id='mensagem']", "xpath:attributes"],
+        ["xpath=//section[@id='Contato']/div/form/div[4]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "."
+    }, {
+      "id": "2e957151-647a-45f4-bb63-bfb1760d9929",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(5)",
+      "targets": [
+        ["css=button:nth-child(5)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='Contato']/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ce2b97c-cad8-4a7f-bb61-a003d30ceb77",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Dados recebidos!",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b6e2b260-7879-445e-bb6f-65703df0740d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a9d01677-d803-438b-9203-b8113cfc5525"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
